@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">My Appointment</string>
+    <string name="hint">Reply Via</string>
+
+
+    <string name="reply">Reply</string>
+    <string name="reschedule">Re-schedule</string>
+    <string name="forward">Forward</string>
+    <string name="message">Message</string>
+    <string name="submit">Submit</string>
+    <string name="login_form">Login form</string>
+    <string name="password">Password</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="dateSel">Select date</string>
+    <string name="timeSel">Select time</string>
+    <string name="forget_pass">Forget Password ?</string>
+    <string name="dialog_t1">Reply by email or sms</string>
+
+
+    <string name="appointment_date">Date</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="sub">Subject</string>
+    <string name="phone">Phone</string>
+    <string name="msg">Massage</string>
+
+    <string name="sund">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="btn">Call</string>
+    <string name="call">Calling</string>
+    <string name="telNoHintText">Enter a telephone number …</string>
+
+	
+    <string name="previous">Go to previous</string>
+    <string name="next">Go to next</string>
+    <string name="calendar">Calendar</string>
+    <string-array name="reply_via">
+        <item>Sms</item>
+        <item>Email</item>
+    </string-array>
+
+
+</resources>

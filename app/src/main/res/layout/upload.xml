@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Appointment Booking"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5">
+
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:inputType="text"
+            android:drawableRight="@drawable/username_icon"
+            android:drawableEnd="@drawable/username_icon"
+            android:hint="Full Name"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/my_button"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:hint="Email"
+            android:drawableRight="@drawable/mail_icon"
+            android:drawableEnd="@drawable/mail_icon"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/my_button"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5">
+
+        <EditText
+            android:id="@+id/phNo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:inputType="phone"
+            android:hint="Phone"
+            android:padding="10dp"
+            android:drawableEnd="@drawable/mblphn_icon"
+            android:drawableRight="@drawable/mblphn_icon"
+            android:background="@drawable/my_button"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5">
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Subject"
+            android:padding="10dp"
+            android:inputType="text"
+            android:drawableRight="@drawable/i_icon"
+            android:drawableEnd="@drawable/i_icon"
+            android:background="@drawable/my_button"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:hint="Your Message"
+            android:background="@drawable/my_button"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.9">
+
+        <LinearLayout
+            android:id="@+id/uploadFileButtons"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/chooseFile"
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    android:text="Choose File"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/my_button"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/file_upload"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/colorPrimary"
+                    style="@style/Base.TextAppearance.AppCompat.Large"
+                    android:text=""/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8">
+
+        <Button
+            android:id="@+id/bookingSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_button"
+            android:layout_marginLeft="210dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentEnd="true"
+            android:text="Submit"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
